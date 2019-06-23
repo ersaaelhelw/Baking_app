@@ -68,8 +68,8 @@ public class Video_Adapter extends RecyclerView.Adapter<Video_Adapter.ViewHolder
         public ViewHolder(View view) {
 
             super(view);
-            itemView.setOnClickListener(this);
             button=itemView.findViewById(R.id.video_button);
+            button.setOnClickListener(this);
         }
 
         @Override
